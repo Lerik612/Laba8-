@@ -17,7 +17,7 @@ int main() {
 	printf("Введите символ для печати:");
 	scanf(" %c", &symbol);
 
-	for (int start = 1; start <= 10; start++) {
+	for (int start = 1; start <= count; start++) {
 		putchar(symbol);
 	}
 	printf("\n");
